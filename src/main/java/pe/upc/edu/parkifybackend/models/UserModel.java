@@ -54,4 +54,5 @@ public class OwnerModel {
     public void setId(Long id) {
         this.id = id;
     }
+    
 }
