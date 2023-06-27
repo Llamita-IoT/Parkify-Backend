@@ -13,7 +13,7 @@ import upc.edu.pe.parkifybackend.owners.resource.OwnerResource;
 
 @Tag(name = "Owner", description = "Owner account")
 @RestController
-@RequestMapping(value = "api/v1/real_estates")
+@RequestMapping(value = "api/v1/owners")
 public class OwnerController {
 
     private final OwnerService service;
