@@ -11,7 +11,7 @@ import upc.edu.pe.parkifybackend.parkingslots.mapping.ParkingSlotMapper;
 import upc.edu.pe.parkifybackend.parkingslots.resource.CreationParkingSlotResource;
 import upc.edu.pe.parkifybackend.parkingslots.resource.ParkingSlotResource;
 
-@Tag(name = "ParkingSlot", description = "ParkingSlot information")
+@Tag(name = "ParkingSlot", description = "Parking slot information")
 @RestController
 @RequestMapping(value = "api/v1/parkingslots")
 public class ParkingSlotController {

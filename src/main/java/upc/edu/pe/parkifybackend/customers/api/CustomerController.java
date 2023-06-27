@@ -11,9 +11,9 @@ import upc.edu.pe.parkifybackend.customers.mapping.CustomerMapper;
 import upc.edu.pe.parkifybackend.customers.resource.CreationCustomerResource;
 import upc.edu.pe.parkifybackend.customers.resource.CustomerResource;
 
-@Tag(name = "Customer", description = "Real Estate account")
+@Tag(name = "Customer", description = "Customer account")
 @RestController
-@RequestMapping(value = "api/v1/real_estates")
+@RequestMapping(value = "api/v1/customers")
 public class CustomerController {
 
     private final CustomerService service;
