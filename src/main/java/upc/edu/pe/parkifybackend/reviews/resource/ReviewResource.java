@@ -9,7 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 public class ReviewResource {
     private Long id;
-    private Integer rating;
+    private Number rating;
     private String description;
     private Long customerId;
 }

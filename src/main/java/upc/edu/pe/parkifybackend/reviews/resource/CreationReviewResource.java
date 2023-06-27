@@ -23,7 +23,7 @@ public class CreationReviewResource {
     @NotNull
     @NotBlank
     @Size(max = 5)
-    private Integer rating;
+    private Number rating;
 
     @NotNull
     @NotBlank

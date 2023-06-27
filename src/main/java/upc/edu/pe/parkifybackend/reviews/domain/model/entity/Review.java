@@ -24,7 +24,7 @@ public class Review extends AuditModel {
     @NotNull
     @NotBlank
     @Size(max = 5)
-    private Integer rating;
+    private Number rating;
 
     @NotNull
     @NotBlank
