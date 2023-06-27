@@ -11,7 +11,7 @@ import upc.edu.pe.parkifybackend.owners.mapping.OwnerMapper;
 import upc.edu.pe.parkifybackend.owners.resource.CreationOwnerResource;
 import upc.edu.pe.parkifybackend.owners.resource.OwnerResource;
 
-@Tag(name = "Owner", description = "Real Estate account")
+@Tag(name = "Owner", description = "Owner account")
 @RestController
 @RequestMapping(value = "api/v1/real_estates")
 public class OwnerController {
